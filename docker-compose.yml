@@ -1,3 +1,6 @@
+# NOT WORKING RIGHT
+# - client IPs / names are dynamic in a service stack so prometheus yml
+#   needs to somehow "discover" them
 version: '3'
 services:
   prom-client:
